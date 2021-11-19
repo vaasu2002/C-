@@ -23,6 +23,7 @@ void Employee :: setData(int a1, int b1, int c1){
 }
 int main(){
     Employee harry;   // Employee is like int,float , data type
+    // harry.a = 134; -->This will throw error as a is private
     harry.d = 34;
     harry.e = 89;
     harry.setData(1,2,4);
